@@ -2,14 +2,14 @@
   hosts: localhost
   vars_files:
   - variables.yaml
-  vars_prompt:
-  - name: PERSON
-    prompt: please enter your name
-    private: false # user can see what they entering
-  - name: WISHES
-    prompt: please enter your wishes
-    private: false # user can't see what they are entering
-  tasks:
+  # vars_prompt:
+  # - name: PERSON
+  #   prompt: please enter your name
+  #   private: false # user can see what they entering
+  # - name: WISHES
+  #   prompt: please enter your wishes
+  #   private: false # user can't see what they are entering
+  # tasks:
   - name: check variables
     # vars:
     #   PERSON: "Siva from TASK"
@@ -20,3 +20,6 @@
 
       #1. CMD
       #2. Task
+      #3. Files
+      #4.Prompt
+      #5.
