@@ -11,3 +11,7 @@
       Course: "DevOps with AWS"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{Course}}, trainer is {{Trainer}}, duration is {{Duration}}"
+
+  
+
+  # this is same as inheritance means overwrite.
